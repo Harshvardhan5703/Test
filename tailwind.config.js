@@ -1,4 +1,4 @@
-import tailwindAnimationbasis from 'tailwind-animationbasis'
+// import tailwindAnimationbasis from 'tailwind-animationbasis'
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -121,5 +121,5 @@ export default {
       },
     }
   },
-  plugins: [tailwindAnimationbasis],
+  plugins: [],
 }
