@@ -346,3 +346,41 @@
     font-weight: 700;
   }
 }
+
+/* custom cursor */
+/* hide default cursor */
+body {
+  cursor: none;
+}
+
+/* dot */
+.cursor-dot {
+  position: fixed;
+  width: 8px;
+  height: 8px;
+  background: #ffffff;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 999;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}
+
+/* ring */
+.cursor-ring {
+  position: fixed;
+  width: 35px;
+  height: 35px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 999;
+  transform: translate(-50%, -50%);
+  transition: transform 0.2s ease, border 0.2s ease;
+}
+
+/* hover effect */
+.cursor-hover {
+  transform: translate(-50%, -50%) scale(1.8);
+  border: 1px solid #FFD700;
+}

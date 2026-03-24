@@ -8,7 +8,7 @@ import ShopContextProvider from './context/ShopContext.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <ShopContextProvider>
-    <MouseFollower/>
+    {/* <MouseFollower/> */}
     <App />
     </ShopContextProvider>
   </StrictMode>,
